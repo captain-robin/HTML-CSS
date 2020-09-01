@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Factorial</title>
+</head>
+<body>
+<script type="text/javascript">
+ function factorial(num){
+ var x = 1;
+ while(num)
+ {
+ x = x * num;
+ num--;
+ }
+
+ alert("Factorial = " + x);
+}
+</script>
+<input type="text" id="one">
+<input class="btn" type="button" value="SUBMIT" onclick="factorial(one.value)">
+</body>
+</html>
