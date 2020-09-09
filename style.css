@@ -1,109 +1,78 @@
-.page-bg{
-background-image: url('2.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-filter: blur(11px);
-position: fixed;
-width: 100%;
-height: 100%;
-top: 0;
- left: 0;
- z-index: -1;
+*
+{
+    margin:0;
+    padding:0;
 }
-ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
- background-color: #333;
+.header
+{
+    display:none;
 }
-li {
- float: left;
+.container{
+    width: 100%;
 }
-li a {
- display: block;
- color: white;
- text-align: center;
- padding: 14px 16px 17px;
- text-decoration: none;
+.info
+{
+    width:100%;
+
 }
-li a:hover:not(.active) {
- background-color: #111;
+img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;;
 }
-.active {
- background-color: #4CAF50;
+p{
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    background-color: blue;
 }
-.mySlides {
- display: none;
+span{
+      color:yellow;
+      text-decoration:underline ;
+      font-style: italic;
 }
-.slider{
-max-width: 1000px;
- position: relative;
- margin: auto;
- top: 100px;
+h1 {
+    text-align :center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    font-optical-sizing: 50px;
+    text-align: right;
+    color: wheat;
 }
-.prev, .next {
- cursor: pointer;
- position: absolute;
- top: 50%;
- width: auto;
- margin-top: -22px;
- padding: 16px;
- color: white;
- font-weight: bold;
- font-size: 18px;
- transition: 0.6s ease;
- border-radius: 0 3px 3px 0;
- user-select: none;
+ol{
+    list-style: upper-roman;
+
 }
-.next {
- right: 0;
- border-radius: 3px 0 0 3px;
+ul{
+    list-style: square;
+
 }
-.prev:hover, .next:hover {
- background-color: rgba(0,0,0,0.8);
+li{
+    color:brown;
 }
-.dot {
- cursor: pointer;
- height: 15px;
- width: 15px;
- margin: 0 2px;
- background-color: #bbb;
- border-radius: 50%;
- display: inline-block;
- transition: background-color 0.6s ease;
- position: relative;
- top: 100px;
+img{
+    text-align: center;
 }
-.dot:hover {
- background-color: #4CAF50;
+h2
+{
+  text-align :center;
+  text-shadow :4px 4px 20px; 
+  padding: 30px 40px 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size:30px;
+  colour: cadetblue;
+  line-height:50px;
+
 }
-fade {
- -webkit-animation-name: fade;
- -webkit-animation-duration: 1.5s;
- animation-name: fade;
- animation-duration: 1.5s;
+p{
+    text-align: justify;
+    padding : 0 50px 20px;
+    front-size:
+    colour:grey;
+    line-height:30px;
+
 }
-@-webkit-keyframes fade {
- from {opacity: .4}
- to {opacity: 1}
+.lpu
+{
+    weidth:100%;
 }
-@keyframes fade {
- from {opacity: .4}
- to {opacity: 1}
-}
-.text {
- color: #f2f2f2;
- font-size: 15px;
- padding: 8px 12px;
- position: absolute;
- bottom: 8px;
- width: 100%;
- text-align: center;
-}
-.numbertext {
- color: #f2f2f2;
- font-size: 12px;
- padding: 8px 12px;
- position: absolute;
- top: 0;}
+.lpu:hover;
